@@ -1,0 +1,31 @@
+
+.layout {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 200px 1fr;   
+}
+
+.header { 
+    grid-area: header;
+    background-color: navy;
+    color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: navy;
+}
+
+.main {
+    grid-area: main;}
+
+.footer {
+    grid-area: footer;
+    background-color: gainsboro;
+}
