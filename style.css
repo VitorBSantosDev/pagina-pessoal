@@ -1,20 +1,73 @@
-
-.layout {
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "sidebar main"
-    "footer footer";
-    grid-template-columns: 200px 1fr;   
+:root {
+    --color-navy: #0f172a;
+    --color-blue: #2563eb;
+    --color-cyan: #38bdf8;
+    --color-white: #ffffff;
 }
 
-.header { 
-    grid-area: header;
-    background-color: navy;
-    color: gainsboro;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+body {
+    font: 'Inter', sans-serif;;
+}
+
+.header {
+  background-color: var(--color-navy);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #0f172a;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.nav-name {
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.name-tag {
+  color: #38bdf8;
+  background-color: rgba(56, 189, 248, 0.12);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.7rem;
+  border-radius: 9999px;
+  margin-left: 0.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.nav-menu a {
+  color: #cbd5e1;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.45rem 0.75rem;
+  border-radius: 6px;
+}
+
+.nav-menu a:hover {
+  color: #38bdf8;
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 .sidebar {
@@ -28,4 +81,11 @@
 .footer {
     grid-area: footer;
     background-color: gainsboro;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 }
