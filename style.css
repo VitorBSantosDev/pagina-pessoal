@@ -114,7 +114,7 @@ body {
   gap: 1rem;
 }
 
-.avatar-wrapper {
+.avatar-top {
   width: 130px;
   height: 130px;
   border-radius: 9999px;
@@ -164,9 +164,11 @@ body {
 }
 
 .sidebar-divider {
+  border: none;
   height: 1px;
   width: 100%;
   background-color: #334155;
+  margin: 0;
 }
 
 .sidebar-section-title {
@@ -267,7 +269,7 @@ body {
   color: #94a3b8;
 }
 
-.cefr-badge {
+.language-level {
   font-size: 0.725rem;
   font-weight: 700;
   padding: 0.2rem 0.5rem;
@@ -277,7 +279,7 @@ body {
   color: #e2e8f0;
 }
 
-.cefr-badge.native {
+.language-level.native {
   background-color: rgba(56, 189, 248, 0.15);
   border-color: rgba(56, 189, 248, 0.4);
   color: #38bdf8;
