@@ -289,6 +289,9 @@ body {
 .main {
     grid-area: main;
     padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
 
   }
 
@@ -342,6 +345,12 @@ body {
 }
 
 .section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.section-body p {
   color: var(--color-section-body);
   font-size: 0.95rem;
   line-height: 1.65;
@@ -377,6 +386,76 @@ body {
   line-height: 1.3;
 }
 
+.career {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 2rem;
+  scroll-margin-top: 84px;
+}
+
+.career-active {
+  border-color: #93c5fd;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+}
+
+.career-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.career-header-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.career-small-description {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.main-active {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #0369a1;
+  background-color: var(--color-accent-cyan-subtle);
+  border: 1px solid var(--color-accent-cyan-border);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.time-tag {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-accent-blue);
+  background-color: #eff6ff;
+  border: 1px solid #dbeafe;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.career-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+}
+
+.career-tag {
+  font-size: 0.725rem;
+  color: var(--color-text-muted);
+  background-color: var(--color-bg-subtle);
+  padding: 2px 7px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+}
 
 .footer {
     grid-area: footer;
