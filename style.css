@@ -457,6 +457,55 @@ body {
   border: 1px solid var(--color-border);
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.875rem;
+}
+
+.skill {
+  background-color: var(--color-bg-page);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.875rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill.servicenow {
+  background-color: #ffffff;
+  border-color: #93c5fd;
+  border-left: 3px solid var(--color-accent-blue);
+}
+
+.skill-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-primary-navy);
+  line-height: 1.25;
+}
+
+.skill-category {
+  font-size: 0.725rem;
+  color: var(--color-text-light);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.skill:hover {
+  border-color: #cbd5e1;
+  background-color: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+
 .footer {
     grid-area: footer;
     background-color: gainsboro;
@@ -473,5 +522,14 @@ body {
   .profile-sidebar {
     position: static;
     width: 100%;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
 }
