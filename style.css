@@ -51,7 +51,7 @@ body {
   width: 100%;
   padding: 0 2.5rem 0 4rem;
   box-sizing: border-box;
-  scroll-margin-top: 84px;
+  scroll-margin-top: 12.5vh;
 }
 
 .header {
@@ -182,7 +182,7 @@ body {
 }
 
 .sidebar-section {
-  scroll-margin-top: 84px;
+  scroll-margin-top: 12.5vh;
 }
 
 .sidebar-section-title {
@@ -316,7 +316,7 @@ body {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   padding: 2rem;
-  scroll-margin-top: 84px;
+  scroll-margin-top: 12.5vh;
 }
 
 .section-header {
@@ -408,7 +408,7 @@ body {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   padding: 2rem;
-  scroll-margin-top: 84px;
+  scroll-margin-top: 12.5vh;
 }
 
 .career-active {
