@@ -787,15 +787,15 @@ body {
   }
 
   .content {
-    scroll-margin-top: 150px;
+    scroll-margin-top: 23vh;
   }
 
   .sidebar-section {
-    scroll-margin-top: 150px;
+    scroll-margin-top: 23vh;
   }
 
   .main-section {
-    scroll-margin-top: 150px;
+    scroll-margin-top: 23vh;
   }
 }
 
