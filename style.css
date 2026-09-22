@@ -210,6 +210,11 @@ header {
   color: var(--color-accent-sky);
 }
 
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
 .contact-content {
   display: flex;
   flex-direction: column;
@@ -319,6 +324,7 @@ header {
 .section-indicator {
   width: 4px;
   height: 22px;
+  display: block;
   background: var(--color-accent-blue);
   border-radius: var(--radius-full);
 }
@@ -455,6 +461,9 @@ header {
 }
 
 .skills-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(11.25rem, 1fr));
   gap: 0.875rem;
@@ -653,6 +662,7 @@ footer {
   .profile-sidebar {
     padding: 1.25rem;
   }
+  
   .content {
     grid-template-columns: 1fr;
     padding: 0 1rem;
