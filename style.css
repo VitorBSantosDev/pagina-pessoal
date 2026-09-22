@@ -27,32 +27,21 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-areas:
-        "header"
-        "content"
-        "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    width: 100%;
-    row-gap: 2rem;
 }
 
 .content {
-  grid-area: content;
   display: grid;
   grid-template-columns: 30% 1fr;
   column-gap: 2rem;
   row-gap: 2.25rem;
   align-items: start;
   width: 100%;
-  padding: 0 2.5rem 0 4rem;
+  padding: 3rem 2.5rem 3rem 4rem;
   box-sizing: border-box;
   scroll-margin-top: 12.5vh;
 }
 
 header {
-  grid-area: header;
   background-color: var(--color-primary-navy);
   position: sticky;
   top: 0;
@@ -589,8 +578,7 @@ header {
   text-decoration: none;
 }
 
-.footer {
-  grid-area: footer;
+footer {
   background-color: var(--color-border);
   padding: 1.75rem 2rem;
   
