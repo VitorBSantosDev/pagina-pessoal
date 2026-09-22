@@ -27,9 +27,6 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.layout {
     display: grid;
     grid-template-areas:
         "header"
@@ -54,13 +51,13 @@ body {
   scroll-margin-top: 12.5vh;
 }
 
-.header {
-    grid-area: header;
-    background-color: var(--color-primary-navy);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
+header {
+  grid-area: header;
+  background-color: var(--color-primary-navy);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }
 
 .nav-container {
