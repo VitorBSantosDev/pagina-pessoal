@@ -14,15 +14,17 @@
         <a href="#content" class="nav-name"><span class="name-tag">VS</span>
         Vitor Santos <span class="name-tag">IT Trainee</span>
         </a>
-        <ul class="nav-menu">
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#languages">Languages</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <nav aria-label="Main navigation">
+            <ul class="nav-menu">
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="content" id="content">
         <aside class="profile-sidebar" aria-label="Profile and Contact Summary">
@@ -43,31 +45,28 @@
                 <h2 id="contact-heading" class="sidebar-section-title">Contact Information</h2>
                 <ul class="contact-list">
                     <li class="contact-item">
-                        <div class="contact-icon" aria-hidden="true"><img src="icon-email.svg" alt="Email icon" width="15" height="15"></div>
+                        <div class="contact-icon" aria-hidden="true"><img class="icon" src="icon-email.svg" alt="Email icon"></div>
                         <div class="contact-content">
                             <span class="contact-label">Email</span>
                             <a href="mailto:vbaltazars@hotmail.com" class="contact-link">vbaltazars@hotmail.com</a>
                         </div>
                     </li>
-
                     <li class="contact-item">
-                        <div class="contact-icon" aria-hidden="true"><img src="icon-linkedin.svg" alt="Linkedin icon" width="15" height="15"></div>
+                        <div class="contact-icon" aria-hidden="true"><img class="icon" src="icon-linkedin.svg" alt="Linkedin icon"></div>
                         <div class="contact-content">
                             <span class="contact-label">LinkedIn</span>
                             <a href="https://linkedin.com/in/vitor-b-santos" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/vitor-b-santos</a>
                         </div>
                     </li>
-
                     <li class="contact-item">
-                        <div class="contact-icon" aria-hidden="true"><img src="icon-github.svg" alt="GitHub icon" width="15" height="15"></div>
+                        <div class="contact-icon" aria-hidden="true"><img class="icon" src="icon-github.svg" alt="GitHub icon"></div>
                         <div class="contact-content">
                             <span class="contact-label">GitHub</span>
                             <a href="https://github.com/VitorBSantosDev" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/VitorBSantosDev</a>
                         </div>
                     </li>
-
                     <li class="contact-item">
-                        <div class="contact-icon" aria-hidden="true"><img src="icon-location.svg" alt="Location Pin Icon" width="15" height="15"></div>
+                        <div class="contact-icon" aria-hidden="true"><img class="icon" src="icon-location.svg" alt="Location Pin Icon"></div>
                         <div class="contact-content">
                             <span class="contact-label">Location</span>
                             <span class="contact-link">Braga, Portugal</span>
@@ -130,35 +129,35 @@
                     <br><br>My learning approach consists in disciplined problem-solving, clean code principles, and rapid adaptation to enterprise IT workflows. Through academic coursework and hands-on laboratory exercises, I am actively building practical competencies to support digital transformation and system administration in modern business environments. </p>
                 </div>
                 <div class="about-me-cards">
-                    <div class="about-me-card-container">
+                    <article class="about-me-card-container">
                         <h3 class="card-title">Technical Foundations</h3>
                         <p>Solid grounding in structured programming, algorithms, and web markup standards.</p>
-                    </div>
-                    <div class="about-me-card-container">
+                    </article>
+                    <article class="about-me-card-container">
                         <h3 class="card-title">ServiceNow Focus</h3>
                         <p>Hands-on practice in personal developer instances, incident management, and user data tables.</p>
-                    </div>
-                    <div class="about-me-card-container">
+                    </article>
+                    <article class="about-me-card-container">
                         <h3 class="card-title">Continuous Learning</h3>
                         <p>Committed to regular lab practice, documentation reading, and industry certifications.</p>
-                    </div>
+                    </article>
                 </div>
             </section>
             <section class="main-section" id="education">
                 <div class="section-header">
                     <div class="section-title">
-                        <div class="section-indicator" aria-hidden="true"></div>
+                        <span class="section-indicator" aria-hidden="true"></span>
                         <h2 class="section-heading">Education &amp; Training</h2>
                     </div>
                     <span class="section-subtitle-tag">Academic &amp; Vocational</span>
                 </div>   
                 <div class="section-body">
-                    <div class="career career-active">
+                    <article class="career career-active">
                         <div class="career-header">
                             <h3 class="career-header-title">UPSKILL - Digital Skills & Jobs program <span class="main-active">Current Training</span></h3>
-                            <span class="time-tag">Jul 2026 - Present</span>
+                            <time class="time-tag" datetime="2026-07">Jul 2026 - Present</time>
                         </div>
-                        <span class="career-small-description">ServiceNow Professional Trainee Program</span>
+                        <span class="career-small-description">UPCA's ServiceNow Professional Trainee Program</span>
                         <p>Intensive specialization track focusing on the ServiceNow Now Platform fundamentals, IT Service Management (ITSM), table architecture, business rules, client scripts, Flow Designer workflows, and certified system administrator (CSA) curriculum preparation. </p>
                         <p>The program additionally covers the fundamentals of Javascript, SQL, HTML, CSS, Angular and React.</p>
                         <div class="career-tags">
@@ -174,11 +173,11 @@
                             <span class="career-tag">Angular</span>
                             <span class="career-tag">React</span>
                         </div>
-                    </div>
-                    <div class="career">
+                    </article>
+                    <article class="career">
                         <div class="career-header">
                             <h3 class="career-header-title">Programming languages - Programming in Python program</h3>
-                            <span class="time-tag"> Apr 2025 - Nov 2025</span>
+                            <time class="time-tag"> Apr 2025 - Nov 2025</time>
                         </div>
                         <span class="career-small-description">IEFP training program</span>
                         <p>Training program consisting in the development of the fundamentals for Software Engineering, Algorithmics, C/C++, SQL (SQL queries, normalization), Python and Security in Software Development. </p>
@@ -191,11 +190,11 @@
                             <span class="career-tag">Python</span>
 
                         </div>
-                    </div>
-                    <div class="career">
+                    </article>
+                    <article class="career">
                         <div class="career-header">
                             <h3 class="career-header-title">Master's Degree in Translation and Multilingual Communication</h3>
-                            <span class="time-tag"> 2016 - 2018</span>
+                            <time class="time-tag"> 2016 - 2018</time>
                         </div>
                         <span class="career-small-description">University of Minho Master's Degree</span>
                         <p>University degree consisting in the development of communication and translation skills, along with project management and quality assurance skills. The internship performed in this context consisted in translating the webpage and documentation of KEEP SOLUTIONS, an IT company which develops archive preservation software. This first contact with programming is what caused the current curiosity and fascination in this career path.</p>
@@ -209,11 +208,11 @@
                             <span class="career-tag">Spanish</span>
                             <span class="career-tag">French</span>
                         </div>
-                    </div>
-                    <div class="career">
+                    </article>
+                    <article class="career">
                         <div class="career-header">
                             <h3 class="career-header-title">Bachelor's Degree in Applied Languages</h3>
-                            <span class="time-tag"> 2013 - 2016</span>
+                            <time class="time-tag"> 2013 - 2016</time>
                         </div>
                         <span class="career-small-description">University of Minho Bachelor's Degree</span>
                         <p>University degree consisting in the development of communication in several european languages, project management and quality assurance skills.</p>
@@ -226,106 +225,104 @@
                             <span class="career-tag">Spanish</span>
                             <span class="career-tag">French</span>
                         </div>
-                    </div>
+                    </article>
                 </div>   
             </section>
             <section class="main-section" id="skills">
                 <div class="section-header">
                     <div class="section-title">
-                        <div class="section-indicator" aria-hidden="true"></div>
+                        <span class="section-indicator" aria-hidden="true"></span>
                         <h2 class="section-heading">Technical Skills</h2>
                     </div>
                     <span class="section-subtitle-tag">Studied &amp; In-Progress</span>
                 </div>   
                 <div class="section-body">
-                    <div class="skills">
-                        <div class="skills-grid">
-                            <div class="skill servicenow">
-                                <div class="skill-details">
-                                    <span class="skill-name">ServiceNow</span>
-                                    <span class="skill-category">ITSM &amp; Now Platform</span>
-                                </div>
+                    <ul class="skills-grid">
+                        <li class="skill servicenow">
+                            <div class="skill-details">
+                                <span class="skill-name">ServiceNow</span>
+                                <span class="skill-category">ITSM &amp; Now Platform</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">HTML5</span>
-                                    <span class="skill-category">Semantic Markup</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-category">Semantic Markup</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">CSS3</span>
-                                    <span class="skill-category">Grid &amp; Flexbox</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-category">Grid &amp; Flexbox</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">JavaScript</span>
-                                    <span class="skill-category">Core &amp; Client Scripts</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-category">Core &amp; Client Scripts</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">Python</span>
-                                    <span class="skill-category">Scripting &amp; Logic</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-category">Scripting &amp; Logic</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">C/C++</span>
-                                    <span class="skill-category">Academic Programming</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">C/C++</span>
+                                <span class="skill-category">Academic Programming</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">SQL</span>
-                                    <span class="skill-category">Data Queries &amp; Joins</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-category">Data Queries &amp; Joins</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">Databases</span>
-                                    <span class="skill-category">Relational Modeling</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">Databases</span>
+                                <span class="skill-category">Relational Modeling</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">Git</span>
-                                    <span class="skill-category">Version Control</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-category">Version Control</span>
                             </div>
+                        </li>
 
-                            <div class="skill">
-                                <div class="skill-details">
-                                    <span class="skill-name">GitHub</span>
-                                    <span class="skill-category">Repositories &amp; PRs</span>
-                                </div>
+                        <li class="skill">
+                            <div class="skill-details">
+                                <span class="skill-name">GitHub</span>
+                                <span class="skill-category">Repositories &amp; PRs</span>
                             </div>
-                        </div>
-                    </div>
-                </div>   
+                        </li>
+                    </ul>   
+                </div>
             </section>
             <section class="main-section" id="experience">
                 <div class="section-header">
                     <div class="section-title">
-                        <div class="section-indicator" aria-hidden="true"></div>
+                        <span class="section-indicator" aria-hidden="true"></span>
                         <h2 class="section-heading">Experience &amp; Professional Development</h2>
                     </div>
                     <span class="section-subtitle-tag">Early Career Track</span>
                 </div>   
                 <div class="section-body">
-                    <div class="career career-active">
+                    <article class="career career-active">
                         <div class="career-header">
                             <h3 class="career-header-title">IT & ServiceNow Academy Trainee <span class="main-active">Active</span></h3>
-                            <span class="time-tag">Jul 2026 - Present</span>
+                            <time class="time-tag" datetime="2026-07">Jul 2026 - Present</time>
                         </div>
                         <span class="career-small-description">UPCA</span>
                         <p>Engaging in structured daily labs and collaborative simulated business scenarios. Configuring service catalog items, creating automated approval flows, setting up assignment rules, and practicing service desk ticket lifecycle management within simulated enterprise instances. </p>
@@ -335,11 +332,11 @@
                             <span class="career-tag">Workflow Automation</span>
                             <span class="career-tag">Team Collaboration</span>
                         </div>
-                    </div>
-                    <div class="career">
+                    </article>
+                    <article class="career">
                         <div class="career-header">
                             <h3 class="career-header-title">Company Manager</h3>
-                            <span class="time-tag"> Nov 2023 - Aug 2024</span>
+                            <time class="time-tag"> Nov 2023 - Aug 2024</time>
                         </div>
                         <span class="career-small-description">Frases Expeditas, Lda.</span>
                         <p>Company Manager providing financial consulting services to construction and fiber optic installation companies in the North American market.</p>
@@ -351,11 +348,11 @@
                             <span class="career-tag">Oracle Netsuite</span>
                             <span class="career-tag">Quickbooks</span>
                         </div>
-                    </div>
-                    <div class="career">
+                    </article>
+                    <article class="career">
                         <div class="career-header">
                             <h3 class="career-header-title">Accounts Payable / Receivable Specialist</h3>
-                            <span class="time-tag"> Jan 2023 - Oct 2023</span>
+                            <time class="time-tag"> Jan 2023 - Oct 2023</time>
                         </div>
                         <span class="career-small-description">LEDGERLINK UNIPESSOAL, LDA</span>
                         <p>Accounts payable/receivable services provided to companies related to construction and fiber optic installation in the North American market. It involved coordination with the production and accounting teams, communication with clients and vendors, and the creation and analysis of accounting records in QuickBooks Desktop, QuickBooks Online, Stampli, and Oracle NetSuite software.</p>
@@ -366,11 +363,11 @@
                             <span class="career-tag">Oracle Netsuite</span>
                             <span class="career-tag">Quickbooks</span>
                         </div>
-                    </div>
-                    <div class="career">
+                    </article>
+                    <article class="career">
                         <div class="career-header">
                             <h3 class="career-header-title">Accounts Payable / Receivable Specialist</h3>
-                            <span class="time-tag"> Apr 2019 - Dec 2022</span>
+                            <time class="time-tag"> Apr 2019 - Dec 2022</time>
                         </div>
                         <span class="career-small-description">Dunas de Contrastes S.A.</span>
                         <p>Administrative work related to civil construction and technical installations in the North American market. It involves coordination with the production and accounting teams, communication with clients and vendors, creation and analysis of accounting records in PRIMAVERA Construction Module, PRIMAVERA ERP, and QuickBooks software, and supplier payments using Citibank and Wells Fargo banking platforms.</p>
@@ -382,14 +379,14 @@
                             <span class="career-tag">Citibank</span>
                             <span class="career-tag">Wellsfargo</span>
                         </div>
-                    </div>
+                    </article>
                 </div>   
             </section>
 
             <section class="main-section" id="projects">
                 <div class="section-header">
                     <div class="section-title">
-                        <div class="section-indicator" aria-hidden="true"></div>
+                        <span class="section-indicator" aria-hidden="true"></span>
                         <h2 class="section-heading">Projects &amp; Learning</h2>
                     </div>
                     <span class="section-subtitle-tag">Practical Lab Works</span>
@@ -399,7 +396,7 @@
                         <div class="project-top">
                             <div class="projects-top-header">
                                 <span class="project-tag">ACADEMIC PROJECT</span>
-                                <span class="time-tag-project">2026</span>
+                                <time class="time-tag-project" datetime="2026">2026</time>
                             </div>
                             <h3 class="career-header-title">Personal CV &amp; Portfolio Website</h3>
                             <p class="project-description">Designed with Google Stitch and developed from using clean semantic HTML5 and CSS3. Demonstrates responsive layout principles through CSS Grid for primary containers and Flexbox for component alignment.</p>
@@ -418,7 +415,7 @@
                         <div class="project-top">
                             <div class="projects-top-header">
                                 <span class="project-tag">ACADEMIC PROJECT</span>
-                                <span class="time-tag-project">2025</span>
+                                <time class="time-tag-project" datetime="2025">2025</time>
                             </div>
                             <h3 class="career-header-title">Personal Expense Tracking Tool</h3>
                             <p class="project-description">Developed from scratch using Django and Python, including the creation of the database schema. Demonstrates a simple yet robust layout through the use of several validations in the Python side of the project.</p>
