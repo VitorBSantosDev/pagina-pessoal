@@ -1,5 +1,3 @@
-* [ ] 
-
 # Vitor Santos — IT & ServiceNow Trainee Portfolio
 
 A personal CV and portfolio website built as an academic web development project, demonstrating **semantic HTML5** and **CSS3** fundamentals — built entirely from scratch, with **no JavaScript, no CSS frameworks, and no external libraries**.
