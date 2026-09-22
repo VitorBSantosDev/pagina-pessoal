@@ -58,6 +58,14 @@ Grid is used specifically where a genuine multi-column layout is needed; everyth
 
 No build step required. Clone or download the project, then open `index.html` directly in a browser — or serve the folder with any static file server (e.g. the VS Code "Live Server" extension) for the closest match to a real hosting environment.
 
+## Design layout link
+
+https://stitch.withgoogle.com/projects/10197196893089824471
+
+## GitHub pages
+
+https://vitorbsantosdev.github.io/pagina-pessoal/
+
 ## Design credits
 
 Initial visual direction explored with Google Stitch; all HTML and CSS implementation was hand-built and debugged from that starting point.
