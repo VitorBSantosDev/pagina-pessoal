@@ -210,6 +210,10 @@ header {
   color: var(--color-accent-sky);
 }
 
+address {
+  font-style: normal;
+}
+
 .icon {
   width: 15px;
   height: 15px;
