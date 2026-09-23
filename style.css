@@ -224,7 +224,6 @@ address {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  overflow: hidden;
 }
 
 .contact-label {
@@ -337,7 +336,6 @@ main {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--color-primary-navy);
-  letter-spacing: -0.01em;
 }
 
 .section-subtitle-tag {
@@ -603,13 +601,6 @@ footer {
   font-size: 0.8rem;
   padding: 1.75rem 2.5rem;
   box-sizing: border-box;
-}
-
-.footer-left {
-  color: var(--color-primary-navy);
-}
-
-.footer-name {
   color: var(--color-primary-navy);
 }
 
@@ -677,7 +668,7 @@ footer {
   
   .content {
     grid-template-columns: 1fr;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
   }
 
   header {
